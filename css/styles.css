@@ -1,0 +1,15 @@
+.navbar-dark{
+    background-color: #666c70
+}
+
+.form-control {
+    border-radius: 5%;
+}
+
+h1 {
+    margin-top: 7%;
+}
+
+.carousel-inner {
+    border-width: 10%;
+}
