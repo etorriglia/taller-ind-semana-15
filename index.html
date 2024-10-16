@@ -14,38 +14,44 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     <title>Lorem ipsum</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">LOREM IPSUM</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid p-1">
+      <a class="navbar-brand ms-5" href="#">LOREM IPSUM</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
+          <form class="d-flex me-5 d-lg-none">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            
+          </form>
+        </li>
+          <li class="nav-item ms-5 me-5">
             <a class="nav-link active" aria-current="page" href="#">Dolor</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item me-5">
             <a class="nav-link" href="#">Sit</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item me-5">
             <a class="nav-link" href="#">Amet</a>
           </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown me-5 d-lg-none">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Opciones
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Opción 1</a></li>
+              <li><a class="dropdown-item" href="#">Opción 2</a></li>
+              <li><a class="dropdown-item" href="#">Opción 3</a></li>
+              <li><a class="dropdown-item" href="#">Opción 4</a></li>
             </ul>
           </li>
           
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <form class="d-flex me-5 d-none d-lg-block">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
           
         </form>
       </div>
@@ -58,12 +64,12 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
         <div class="row">
             <div class="col">
               
-                    <h1 class="text-center"> Lorem ipsum...</h1>
+                    <h1 class="text-center d-none d-lg-block"> Lorem ipsum...</h1>
                       <div id="demo" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
 
 
                     <!-- The slideshow/carousel -->
-                    <div class="carousel-inner text-center mt-4 border border-3 border-danger w-50 offset-md-3">
+                    <div class="carousel-inner text-center mt-4 border border-3 border-danger w-50 offset-md-3 d-none d-lg-block">
                       <div class="carousel-item active mt-2">
                             <p class="carousel-text">dolor sit amet, consectetur adipiscing elit,</p>
                         
@@ -87,7 +93,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
                 <div class="row d-flex justify-content-between">
 
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 d-none d-lg-block">
                   
                     <div class="list-group mt-5">
                       <a href="#" class="list-group-item list-group-item-action">Opción 1</a>
@@ -98,7 +104,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     
                     </div>
     
-                    <div class="col-lg-3 mt-5">
+                    <div class="col-lg-3 col-md-6 mt-5">
                       <div class="mb-2 me-2">
                         <p class="text">Lorem ipsum dolor sit amet consectetur adipiscing, elit nisl commodo lectus aptent. Tempor venenatis nisi congue nisl quam at ligula sollicitudin, metus litora aliquam a odio platea id pulvinar, non eleifend duis proin fermentum curae euismod. Imperdiet platea cubilia ac proin magnis conubia semper suscipit a, per dis ultrices porttitor varius erat at. </p>
                       </div>
@@ -111,7 +117,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
                     </div>
     
-                    <div class="col-lg-3 mt-5">
+                    <div class="col-lg-3 col-md-6 mt-5">
                       <div class="mb-2 me-2">
                         <p class="text">Lorem ipsum dolor sit amet consectetur adipiscing, elit nisl commodo lectus aptent. Tempor venenatis nisi congue nisl quam at ligula sollicitudin, metus litora aliquam a odio platea id pulvinar, non eleifend duis proin fermentum curae euismod. Imperdiet platea cubilia ac proin magnis conubia semper suscipit a, per dis ultrices porttitor varius erat at. </p>
                       </div>
@@ -123,7 +129,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
                       </div>
                     </div>
     
-                    <div class="col-lg-3 mt-5">
+                    <div class="col-lg-3 col-md-6 mt-5">
                       <div class="mb-2 me-2">
                         <p class="text">Lorem ipsum dolor sit amet consectetur adipiscing, elit nisl commodo lectus aptent. Tempor venenatis nisi congue nisl quam at ligula sollicitudin, metus litora aliquam a odio platea id pulvinar, non eleifend duis proin fermentum curae euismod. Imperdiet platea cubilia ac proin magnis conubia semper suscipit a, per dis ultrices porttitor varius erat at. </p>
                       </div>
