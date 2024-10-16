@@ -1,9 +1,10 @@
 .navbar-dark{
-    background-color: #909aa1
+    background-color: #7b7f82
 }
 
 .form-control {
     border-radius: 5%;
+    margin-left: 2%;
 }
 
 h1 {
@@ -21,4 +22,14 @@ h1 {
 .text{
     background-color: rgb(231, 231, 231);
     padding: 2%;
+}
+
+
+.nav-item.dropdown {
+    position: relative;
+
+}
+
+.dropdown-item.border {
+    border-color: #7b7f82;
 }
